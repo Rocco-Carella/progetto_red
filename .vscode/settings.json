@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#293019",
+        "titleBar.activeBackground": "#394423",
+        "titleBar.activeForeground": "#FAFBF7"
+    },
+    "CodeGPT.apiKey": "OpenAI"
+}
