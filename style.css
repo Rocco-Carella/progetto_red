@@ -99,8 +99,10 @@ header {
   border-radius: 50%;
   background-color: white;
   position:absolute;
-  bottom: -8px;
-  right: 37px;
+  left: 50%;
+  /* bottom: 50%; */
+  /* right: 50%; */
+  display: block;
 
 }
 main{
