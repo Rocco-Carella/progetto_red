@@ -16,7 +16,7 @@ p{
 }
 h1,h2,h3,h4,h5{
   color: var(--red);
-  font-family: 'Rajdhani', sans-serif;    
+  font-family: 'Nova Square', sans-serif;    
 
 }
 
@@ -45,8 +45,7 @@ header{
 }
   h1{
     letter-spacing: 30px;
-    text-align: center;
-    margin-top: 130px;
+   
 }
 
 header {
@@ -81,7 +80,7 @@ header {
   /* main & section */
 .border-custom{
     text-align: center;
-    border-bottom: 2px solid darkred;
+    border-bottom: 3px solid darkred;
     position: relative;
 }
  .i-custom{
@@ -115,11 +114,12 @@ main{
 }
 
 .timeline{
-  border-left: 2px solid darkred;
+  border-left: 3px solid darkred;
   position: relative;
+  
 
 }
-div.timeline::after{
+h5::before{
   content: '';
   width: 15px;
   height: 15px;
@@ -127,24 +127,30 @@ div.timeline::after{
   border-radius: 50%;
   background-color: white;
   position:absolute;
-  left:-8px;
+  left: -9px;
 
 }
-.img-custom{
-  position: absolute;
-  left: 700px;
-  top: 1900px;
+.img-container{
+  background-image: url('./media/klipartz.com\ \(16\).png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+
 }
 .cst-team{
   border: 2px solid var(--red);
   border-radius:50%;
-  padding: 9px;
+  padding: 3px;
+  width: 111px;
+  height: 111px;
   
 }
 .circle-cst{
   border: 2px solid var(--red);
-  border-radius: 100%;
-  padding: 9px;
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  padding: 3px;
+  
 
 }
 /* footer */
